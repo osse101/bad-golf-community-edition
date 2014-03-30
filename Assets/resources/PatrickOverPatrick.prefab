@@ -26,6 +26,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 137: {fileID: 13700000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -1405,7 +1406,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: .704556406, y: -.705496252, z: -.0476976186, w: .060002964}
-  m_LocalPosition: {x: 1.55520821, y: -.00536345597, z: -.307309777}
+  m_LocalPosition: {x: 1.5965184, y: -.00507830689, z: -.290935546}
   m_LocalScale: {x: .865999997, y: .865999997, z: .865999997}
   m_Children:
   - {fileID: 400002}
@@ -2554,6 +2555,17 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07c3cad733e2b34fa5dd3b63c32f47f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
